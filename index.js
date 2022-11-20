@@ -1,8 +1,3 @@
-      var data;
-fetch("https://raw.githubusercontent.com/ufgtftcbtcut/ufgtftcbtcut.github.io/main/data.json")
-  .then(response => response.json())
-  .then(json => data = json);
-
 var codedInText;
 if(data["codedInC"]) {
     codedInText = "C";
