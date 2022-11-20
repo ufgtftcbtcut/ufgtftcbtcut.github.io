@@ -1,4 +1,5 @@
-data = {
+datas = {
+    "Print":{
     "navbar":         ["Terminal","Output"],
     "path":           "Main.Main.",
     "name":           "Print",
@@ -19,4 +20,5 @@ data = {
     ],
     "codedInC":       true,
     "implementation": "Something"
+    }
 }
