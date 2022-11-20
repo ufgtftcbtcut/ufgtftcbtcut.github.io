@@ -1,3 +1,8 @@
+const params = new Proxy(new URLSearchParams(window.location.search), {
+  get: (searchParams, prop) => searchParams.get(prop),
+});
+var data = datas[params.name]
+
 var codedInText;
 if(data["codedInC"]) {
     codedInText = "C";
