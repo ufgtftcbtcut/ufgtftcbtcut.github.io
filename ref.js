@@ -2,6 +2,9 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
   get: (searchParams, prop) => searchParams.get(prop),
 });
 var data = datas[params.name]
+if(data == "") {
+  window.location.href = "https://ufgtftcbtcut.github.io/introduction.md";
+}
 
 var codedInText;
 if(data["codedInC"]) {
