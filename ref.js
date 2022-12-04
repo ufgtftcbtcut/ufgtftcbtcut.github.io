@@ -3,7 +3,7 @@ const params = new Proxy(new URLSearchParams(window.location.search), {
 });
 var data = datas[params.name]
 if(params.name == "" || window.location.search == "") {
-  window.location.href = "https://ufgtftcbtcut.github.io/reference.md";
+  window.location.href = "https://ufgtftcbtcut.github.io/reference.html";
 }
 
 var codedInText;
